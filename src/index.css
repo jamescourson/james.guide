@@ -28,7 +28,7 @@ body {
     30deg,
     rgba(11, 102, 35, 0.75),
     rgba(11, 102, 35, 0.35)
-  ), url('./assets/textures/asphalt.png');
+  ), url('./assets/background.png');
   background-position: 0 0;
   background-repeat: repeat;
   animation: animateBackground 25s linear infinite;
