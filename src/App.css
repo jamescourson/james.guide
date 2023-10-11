@@ -1,0 +1,9 @@
+#logo {
+  max-width: 85vw;
+}
+
+#caption {
+  display: block;
+  text-align: center;
+  font-size: 1.25em;
+}
