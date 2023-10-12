@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "CHOKIDAR_USEPOLLING=true vite",
-    "predeploy": "yarn run build && echo 'james.guide' > dist/CNAME",
+    "predeploy": "yarn run build && echo james.guide > dist/CNAME",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
