@@ -3,7 +3,23 @@
 }
 
 #caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+#caption small {
   display: block;
-  text-align: center;
   font-size: 1.25em;
+}
+
+#caption a {
+  color: black;
+  transition: color 150ms ease-in;
+}
+
+#caption a:hover {
+  color: white;
 }

@@ -5,7 +5,10 @@ function App() {
   return (
     <>
       <img src={Logo} alt="James' Guide" id="logo" />
-      <small id="caption">Returning 2024</small>
+      <span id="caption">
+        <small>Returning 2024</small>
+        <a href="https://github.com/jamescourson/james.guide">GitHub</a>
+      </span>
     </>
   )
 }
