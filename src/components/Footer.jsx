@@ -1,5 +1,9 @@
+const footerStyles = {
+  textAlign: 'center'
+}
+
 const Footer = () => (
-  <footer>
+  <footer style={footerStyles}>
     <small>&copy; James' Guide</small>
   </footer>
 );

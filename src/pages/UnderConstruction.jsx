@@ -1,4 +1,3 @@
-import Logo from '../assets/logo.png';
 import './UnderConstruction.css';
 
 const UnderConstruction = () => (
