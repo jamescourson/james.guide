@@ -9,7 +9,7 @@ const headerStyles = {
 }
 
 const logoStyles = {
-  maxWidth: '45vw'
+  maxHeight: '3em'
 }
 
 const Header = () => (
