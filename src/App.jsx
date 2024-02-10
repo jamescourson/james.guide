@@ -1,16 +1,12 @@
-import Logo from './assets/logo.png';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import UnderConstruction from './pages/UnderConstruction';
 
-function App() {
-  return (
-    <>
-      <img src={Logo} alt="James' Guide" id="logo" />
-      <span id="caption">
-        <small>Returning 2024</small>
-        <a href="https://github.com/jamescourson/james.guide">GitHub</a>
-      </span>
-    </>
-  )
-}
+const App = () => (
+  <main>
+    <Routes>
+      <Route path='/' element={<UnderConstruction />} />
+    </Routes>
+  </main>
+);
 
 export default App;
