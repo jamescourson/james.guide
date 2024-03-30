@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import UnderConstruction from './pages/UnderConstruction';
+import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -11,7 +12,7 @@ const App = () => (
 
     <main>
       <Routes>
-        <Route path='/' element={<UnderConstruction />} />
+        <Route path='/' element={<Home />} />
       </Routes>
     </main>
 
