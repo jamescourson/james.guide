@@ -213,6 +213,11 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
+"@badgateway/oauth2-client@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@badgateway/oauth2-client/-/oauth2-client-2.3.0.tgz#ff93ba999036f1c37809c5d9f4e388fbcf738e50"
+  integrity sha512-nLbACuhaKIo9AjaE/HK1zvRU0yzsSOX94yarEyKLq1FNzf9b74YReZrKVfF7EkQfNli+TpL11750s01/oyEf2w==
+
 "@esbuild/android-arm64@0.18.20":
   version "0.18.20"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.18.20.tgz#984b4f9c8d0377443cc2dfcef266d02244593622"
