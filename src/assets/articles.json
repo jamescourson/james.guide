@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Sample Article 1",
+      "img": "https://placekitten.com/g/200/300",
+      "path": "articles/1"
+    },
+    {
+      "id": 2,
+      "title": "Sample Article 2",
+      "img": "https://placekitten.com/g/200/300",
+      "path": "articles/2"
+    }
+  ]
+}
