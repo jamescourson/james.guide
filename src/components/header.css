@@ -1,0 +1,51 @@
+@keyframes animateBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+
+  background-image: linear-gradient(
+    -30deg,
+    rgba(11, 102, 35, 0.85),
+    rgba(11, 102, 35, 0.65)
+  ), url('src/assets/background.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+  animation: animateBackground 64s linear infinite;
+}
+
+header img {
+  max-height: 3em;
+  margin-bottom: .5em;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+  justify-content: baseline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: .5em 1em;
+  background-color: rgba(0, 0, 0, .15);
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, .25);
+}

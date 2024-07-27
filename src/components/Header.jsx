@@ -1,22 +1,18 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from '../assets/logo.png';
-
-const headerStyles = {
-  display: 'flex',
-  flexFlow: 'row no-wrap',
-  justifyContent: 'center',
-  alignItems: 'baseline'
-}
-
-const logoStyles = {
-  maxHeight: '3em'
-}
+import './header.css';
 
 const Header = () => (
-  <header style={headerStyles}>
+  <header>
     <Link to="/">
-      <img src={Logo} alt="James' Guide" style={logoStyles} />
+      <img src={Logo} alt="James' Guide" />
     </Link>
+
+    <nav>
+      <NavLink to="/a">About</NavLink>
+      <NavLink to="/b">Blog</NavLink>
+      <NavLink to="/d">Directory</NavLink>
+    </nav>
   </header>
 );
 

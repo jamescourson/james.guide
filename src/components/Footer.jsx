@@ -4,7 +4,7 @@ const footerStyles = {
 
 const Footer = () => (
   <footer style={footerStyles}>
-    <small>&copy; James' Guide</small>
+    <small>&copy; James' Guide 2024</small>
   </footer>
 );
 
