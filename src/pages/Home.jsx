@@ -6,6 +6,7 @@ const Home = () => (
       <li>Recent blog post carousel</li>
       <li>Featured guide</li>
       <li>Sitemap</li>
+      <li>Popular pages</li>
     </ol>
   </>
 );
