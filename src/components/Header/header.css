@@ -23,6 +23,7 @@ nav a {
   text-decoration: none;
   padding: .5em 1em;
   background-color: rgba(0, 0, 0, .15);
+  transition: background-color 128ms ease;
 }
 
 nav a.active {
