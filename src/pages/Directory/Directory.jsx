@@ -20,6 +20,10 @@ const Directory = () => {
       abbr: 'ch'
     },
     {
+      name: 'Code',
+      abbr: 'co'
+    },
+    {
       name: 'Cooking',
       abbr: 'ck'
     },
@@ -42,14 +46,6 @@ const Directory = () => {
     {
       name: 'Origami',
       abbr: 'or'
-    },
-    {
-      name: 'Software Development',
-      abbr: 'sd'
-    },
-    {
-      name: 'Web Development',
-      abbr: 'wd'
     },
     {
       name: 'Woodworking',
