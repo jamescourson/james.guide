@@ -3,7 +3,6 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer';
 
 import Home from './pages/Home';
-import About from './pages/About';
 import Journal from './pages/Journal';
 import Directory from './pages/Directory/Directory';
 
@@ -16,7 +15,6 @@ const App = () => (
     <main>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/a' element={<About />} />
         <Route path='/d' element={<Directory />} />
         <Route path='/j' element={<Journal />} />
       </Routes>

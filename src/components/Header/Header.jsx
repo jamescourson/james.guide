@@ -9,7 +9,6 @@ const Header = () => (
     </Link>
 
     <nav>
-      <NavLink to="/a">About</NavLink>
       <NavLink to="/d">Directory</NavLink>
       <NavLink to="/j">Journal</NavLink>
     </nav>
