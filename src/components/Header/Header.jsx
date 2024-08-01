@@ -9,8 +9,8 @@ const Header = () => (
     </Link>
 
     <nav>
-      <NavLink to="/d">Directory</NavLink>
-      <NavLink to="/j">Journal</NavLink>
+      <NavLink to="/d/">Directory</NavLink>
+      <NavLink to="/j/">Journal</NavLink>
     </nav>
   </header>
 );

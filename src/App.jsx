@@ -7,6 +7,7 @@ import Journal from './pages/Journal';
 import Directory from './pages/Directory/Directory';
 
 import './App.css';
+import Guide from './pages/Guide/Guide';
 
 const App = () => (
   <>
@@ -15,8 +16,9 @@ const App = () => (
     <main>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/d' element={<Directory />} />
-        <Route path='/j' element={<Journal />} />
+        <Route path='d' element={<Directory />} />
+        <Route path='g/:abbr' element={<Guide />}></Route>
+        <Route path='j' element={<Journal />} />
       </Routes>
     </main>
 
