@@ -20,7 +20,7 @@ const Directory = () => {
   return (
     <>
       <h1>Directory</h1>
-      <small>{guides.length} guides | {totalResources} total resources</small>
+      <small>{guides.length} guides | {totalResources} resources</small>
       <ul>
         {guides.map(({ name, abbr }, i) => (<GuideListing name={name} abbr={abbr} key={i} />))}
       </ul>
