@@ -2,16 +2,11 @@ import { Link } from 'react-router-dom';
 import './directory.css';
 
 
-const DirectoryListing = ({ name, abbr }) => {
+const GuideListing = ({ name, abbr }) => {
   const resourceCount = 'X'; // fetch from api
 
   return (
-    <li style={{
-      display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      gap: '1em'
-    }}>
+    <li>
       <Link to={`/g/${abbr}`}>{name}</Link>
       <small>{resourceCount} resources</small>
     </li>
@@ -19,7 +14,7 @@ const DirectoryListing = ({ name, abbr }) => {
 }
 
 const Directory = () => {
-  const directories = [
+  const guides = [
     {
       name: 'Calisthenics',
       abbr: 'ca'
@@ -29,8 +24,20 @@ const Directory = () => {
       abbr: 'ch'
     },
     {
+      name: 'Cooking',
+      abbr: 'ck'
+    },
+    {
       name: 'Disc Golf',
       abbr: 'dg'
+    },
+    {
+      name: 'Home Improvement',
+      abbr: 'hi'
+    },
+    {
+      name: 'Houseplants',
+      abbr: 'hp'
     },
     {
       name: 'Music',
@@ -58,10 +65,10 @@ const Directory = () => {
   return (
     <>
       <h1>Directory</h1>
+      <small>{guides.length} guides | {totalResources} total resources</small>
       <ul>
-        {directories.map(({ name, abbr }, i) => (<DirectoryListing name={name} abbr={abbr} key={i}></DirectoryListing>))}
+        {guides.map(({ name, abbr }, i) => (<GuideListing name={name} abbr={abbr} key={i} />))}
       </ul>
-      <small>{directories.length} directories | {totalResources} total resources</small>
     </>
   );
 }

@@ -1,3 +1,11 @@
+ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 2em;
+}
+
 ul li a {
   color: ivory;
   text-decoration: none;
