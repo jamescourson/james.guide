@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import './directory.css';
 import guides from '../../data/guides.json';
+import resources from '../../data/resources.json';
 
 
 const GuideListing = ({ name, abbr }) => {
-  const resourceCount = 'X'; // fetch from api
+  const resourceCount = resources.filter(resource => resource.guide === abbr).length;
 
   return (
     <li>
@@ -15,7 +16,7 @@ const GuideListing = ({ name, abbr }) => {
 }
 
 const Directory = () => {
-  const totalResources = 'X'; // fetch from api
+  const totalResources = resources.length;
 
   return (
     <>
