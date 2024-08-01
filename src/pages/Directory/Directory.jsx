@@ -16,10 +16,6 @@ const GuideListing = ({ name, abbr }) => {
 const Directory = () => {
   const guides = [
     {
-      name: 'Calisthenics',
-      abbr: 'ca'
-    },
-    {
       name: 'Chess',
       abbr: 'ch'
     },
