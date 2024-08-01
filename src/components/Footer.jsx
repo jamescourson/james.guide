@@ -9,7 +9,7 @@ const footerStyles = {
 
 const Footer = () => (
   <footer style={footerStyles}>
-    <small>&copy; James Courson 2024</small>
+    <small>&copy; James Courson 2024 | <Link to="https://courson.dev">courson.dev</Link></small>
   </footer>
 );
 
