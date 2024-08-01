@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './directory.css';
+import guides from '../../data/guides.json';
 
 
 const GuideListing = ({ name, abbr }) => {
@@ -14,44 +15,6 @@ const GuideListing = ({ name, abbr }) => {
 }
 
 const Directory = () => {
-  const guides = [
-    {
-      name: 'Chess',
-      abbr: 'ch'
-    },
-    {
-      name: 'Code',
-      abbr: 'co'
-    },
-    {
-      name: 'Cooking',
-      abbr: 'ck'
-    },
-    {
-      name: 'Disc Golf',
-      abbr: 'dg'
-    },
-    {
-      name: 'Home Improvement',
-      abbr: 'hi'
-    },
-    {
-      name: 'Houseplants',
-      abbr: 'hp'
-    },
-    {
-      name: 'Music',
-      abbr: 'mu'
-    },
-    {
-      name: 'Origami',
-      abbr: 'or'
-    },
-    {
-      name: 'Woodworking',
-      abbr: 'ww'
-    },
-  ]
   const totalResources = 'X'; // fetch from api
 
   return (
