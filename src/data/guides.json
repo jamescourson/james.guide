@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Chess",
+    "abbr": "ch"
+  },
+  {
+    "name": "Code",
+    "abbr": "co"
+  },
+  {
+    "name": "Cooking",
+    "abbr": "ck"
+  },
+  {
+    "name": "Disc Golf",
+    "abbr": "dg"
+  },
+  {
+    "name": "Home Improvement",
+    "abbr": "hi"
+  },
+  {
+    "name": "Music",
+    "abbr": "mu"
+  },
+  {
+    "name": "Origami",
+    "abbr": "or"
+  },
+  {
+    "name": "Plants",
+    "abbr": "pl"
+  },
+  {
+    "name": "Woodworking",
+    "abbr": "ww"
+  }
+]
