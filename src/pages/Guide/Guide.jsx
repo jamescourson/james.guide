@@ -19,12 +19,13 @@ const Resource = ({ data }) => {
 
 const Guide = () => {
   const { abbr } = useParams();
-  const guideData = useMemo(() => guides.filter(guide => guide.abbr === abbr));
+  const guideData = useMemo(() => guides.find(guide => guide.abbr === abbr));
   const filteredResources = useMemo(() => resources.filter(resource => resource.guide === abbr));
 
   return (
     <>
       <h1>{guideData.name}</h1>
+      <Link to="/d/">&#10510;&nbsp;<small>Directory</small></Link>
       <ul>
         {filteredResources.map((resource, key) => <Resource data={resource} key={key} />)}
       </ul>
