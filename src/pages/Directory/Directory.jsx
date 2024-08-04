@@ -16,12 +16,12 @@ const GuideListing = ({ name, abbr }) => {
 }
 
 const Directory = () => {
-  const totalResources = resources.length;
+  const totalValidResources = resources.filter(resource => resource.id && resource.id > 0).length;
 
   return (
     <>
       <h1>Directory</h1>
-      <small>{guides.length} guides | {totalResources} resources</small>
+      <small>{guides.length} guides | {totalValidResources} resources</small>
       <ul>
         {guides.map(({ name, abbr }, i) => (<GuideListing name={name} abbr={abbr} key={i} />))}
       </ul>
