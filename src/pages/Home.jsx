@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 
 const Home = () => (
-  <div id="home">
+  <>
     <h1>Welcome to James' Guide!</h1>
     <article>
       <p>
@@ -19,10 +19,14 @@ const Home = () => (
       </p>
 
       <p>
-        James' Guide is <Link to="https://github.com/jamescourson/james.guide" target="_blank"><b>open source</b></Link> and runs on <b>GitHub Pages</b>.
+        James' Guide is built on <b>React</b> and runs on <b>GitHub Pages</b>.
+        <br />
+        Data is stored statically in <code>src/data/</code> and rendered from JSON.
+        <br />
+        Check out the <Link to="https://github.com/jamescourson/james.guide" target="_blank">source code</Link>!
       </p>
     </article>
-  </div>
+  </>
 );
 
 export default Home;
