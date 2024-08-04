@@ -1,9 +1,26 @@
 [
   {
-    "id": 1,
-    "title": "Example resource",
+    "id": -1,
+    "title": "Example Resource",
     "description": "Example description",
     "url": "https://place.holder",
-    "guide": "co"
+    "guide": "example",
+    "category": "example"
+  },
+  {
+    "id": 1,
+    "title": "MDN",
+    "description": "High-quality web development documentation, articles, tutorials, and other media",
+    "url": "https://developer.mozilla.org/",
+    "guide": "co",
+    "category": "web"
+  },
+  {
+    "id": 2,
+    "title": "Monkeytype",
+    "description": "A typing practice app with plenty of features. Free and open source.",
+    "url": "https://monkeytype.com/",
+    "guide": "co",
+    "category": "general"
   }
 ]
