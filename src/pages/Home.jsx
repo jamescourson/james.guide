@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
 
+import LiveClock from '../components/LiveClock';
+
 
 const Home = () => (
   <>
     <h1>Welcome to James' Guide!</h1>
-    <small>Live clock updating by second</small>
+    <LiveClock />
+
     <article>
       <h2>About</h2>
       <p>
