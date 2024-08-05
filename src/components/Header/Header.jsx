@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
 import './header.css';
 
+
 const Header = () => (
   <header>
     <Link to="/">
