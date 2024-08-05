@@ -1,5 +1,9 @@
 [
   {
+    "name": "Board Games",
+    "abbr": "bg"
+  },
+  {
     "name": "Chess",
     "abbr": "ch"
   },

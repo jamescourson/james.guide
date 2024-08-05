@@ -10,7 +10,7 @@
   {
     "id": 1,
     "title": "MDN",
-    "description": "High-quality web development documentation, articles, tutorials, and other media",
+    "description": "Web development documentation, articles, tutorials, and other media",
     "url": "https://developer.mozilla.org/",
     "guide": "co",
     "category": "web"
@@ -22,5 +22,29 @@
     "url": "https://monkeytype.com/",
     "guide": "co",
     "category": "general"
+  },
+  {
+    "id": 3,
+    "title": "I Build It",
+    "description": "Reasonably-priced plans, focused on jigs, tools, and shop utilities.",
+    "url": "https://ibuildit.ca/",
+    "guide": "ww",
+    "category": "plans"
+  },
+  {
+    "id": 3,
+    "title": "The Wood Database",
+    "description": "All the information you could reasonably need regarding hundreds of species of wood.",
+    "url": "https://www.wood-database.com/",
+    "guide": "ww",
+    "category": "general"
+  },
+  {
+    "id": 3,
+    "title": "I Build It",
+    "description": "Reasonably-priced plans, focused on jigs, tools, and shop utilities.",
+    "url": "https://ibuildit.ca/",
+    "guide": "mu",
+    "category": "plans"
   }
 ]
