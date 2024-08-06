@@ -32,7 +32,7 @@
     "category": "plans"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "The Wood Database",
     "description": "All the information you could reasonably need regarding hundreds of species of wood.",
     "url": "https://www.wood-database.com/",
@@ -40,7 +40,7 @@
     "category": "general"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "I Build It",
     "description": "Reasonably-priced plans, focused on jigs, tools, and shop utilities.",
     "url": "https://ibuildit.ca/",
