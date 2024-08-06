@@ -1,35 +1,49 @@
 import { useEffect, useState } from "react";
 
-const getCurrentTimeString = () => {
+const getCurrentDateTimeString = () => {
   const date = new Date();
 
+  // get dateString
+  const currentMonth = date.getMonth();
+  const currentYear = date.getFullYear();
+  const currentDay = date.getDate();
+
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+  const dateString = `${months[currentMonth]} ${currentDay}, ${currentYear}`;
+
+  // get timeString
   const hours = date.getHours();
   const minutes = date.getMinutes();
   const seconds = date.getSeconds();
 
-  const hour = hours < 10 ? "0" + hours : hours;
-  const minute = minutes < 10 ? "0" + minutes : minutes;
-  const second = seconds < 10 ? "0" + seconds : seconds;
+  const currentHour = hours < 10 ? "0" + hours : hours;
+  const currentMinute = minutes < 10 ? "0" + minutes : minutes;
+  const currentSecond = seconds < 10 ? "0" + seconds : seconds;
 
-  const ampm = hour < 12 ? "AM" : "PM";
-  const hourTime = hour > 12 ? hour - 12 : hour;
+  const ampm = currentHour < 12 ? "AM" : "PM";
+  const hourTime = currentHour > 12 ? currentHour - 12 : currentHour;
+  const timeString = `${hourTime}:${currentMinute}:${currentSecond}${ampm}`;
 
-  return hourTime + ":" + minute + ":" + second + ampm;
+  // return dateTimeString
+  return `${dateString} | ${timeString}`;
 }
 
 const clockStyles = {
   color: 'ivory',
-  marginBottom: '.5em'
+  marginBottom: '.5em',
+  fontWeight: 'bold'
 }
 
 const LiveClock = () => {
-  const [timeString, setTimeString] = useState(getCurrentTimeString()); 
-  const updateTimeString = () => setTimeString(getCurrentTimeString());
+  const [dateTimeString, setDateTimeString] = useState(getCurrentDateTimeString());
+  const updateDateTimeString = () => setDateTimeString(getCurrentDateTimeString());
+  const resetUpdateTimeout = () => setTimeout(updateDateTimeString, 1000);
 
-  useEffect(() => { setTimeout(updateTimeString, 1000) }, [timeString]);
+  useEffect(() => { resetUpdateTimeout() }, [dateTimeString]);
 
   return (
-    <small style={clockStyles}>{timeString}</small>
+    <small style={clockStyles}>{dateTimeString}</small>
   );
 }
 

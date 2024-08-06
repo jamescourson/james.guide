@@ -1,12 +1,9 @@
 import { Link } from 'react-router-dom';
 
-import LiveClock from '../components/LiveClock';
-
 
 const Home = () => (
   <>
     <h1>Welcome to James' Guide!</h1>
-    <LiveClock />
 
     <article>
       <h2>About</h2>
@@ -29,11 +26,9 @@ const Home = () => (
       </p>
 
       <h2>Coming Soon</h2>
-      <p>Here's some features to look forward to soon:</p>
+      <p>Here's some features to look forward to:</p>
       <ul>
-        <li>Suggesting resources</li>
-        <li>Commending resources</li>
-        <li>Getting that clock up above working</li>
+        <li>Suggesting & commending resources</li>
       </ul>
     </article>
   </>
