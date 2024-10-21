@@ -21,7 +21,7 @@ const Guide = () => {
   const { abbr } = useParams();
   const guideData = useMemo(() => guides.find(guide => guide.abbr === abbr));
   const filteredResources = useMemo(() => resources.filter(resource => resource.guide === abbr));
-  // todo: group resources by category
+  // todo: group resources by category, alphabetize
 
   return (
     <>
