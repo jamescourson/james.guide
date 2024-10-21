@@ -4,12 +4,16 @@
     "abbr": "bg"
   },
   {
-    "name": "Development",
-    "abbr": "dev"
+    "name": "Chess",
+    "abbr": "ch"
   },
   {
     "name": "Cooking",
     "abbr": "ck"
+  },
+  {
+    "name": "Development",
+    "abbr": "dev"
   },
   {
     "name": "DIY",
