@@ -124,5 +124,12 @@
     "url": "https://aws-icons.com/",
     "guide": "dev",
     "category": "resources"
+  },
+  {
+    "name": "Trefle",
+    "description": "A free and open-source plant botanical data source and API.",
+    "url": "https://trefle.io",
+    "guide": "pl",
+    "category": "data"
   }
 ]
