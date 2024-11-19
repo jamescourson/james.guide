@@ -21,7 +21,7 @@ header img {
 }
 
 nav {
-  display: flex;
+  display: inline-flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
   gap: .5em;
@@ -42,5 +42,5 @@ nav a.active {
 }
 
 nav a:hover {
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, .1);
 }
