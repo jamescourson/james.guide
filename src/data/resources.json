@@ -110,5 +110,13 @@
     "url": "https://www.365chess.com/analysis_board.php",
     "guide": "ch",
     "category": "analysis"
+  },
+  {
+    "id": 14,
+    "name": "TheMealDB",
+    "description": "An open-access database of refined recipes.",
+    "url": "https://www.themealdb.com/",
+    "guide": "co",
+    "category": "recipes"
   }
 ]
