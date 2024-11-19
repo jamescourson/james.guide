@@ -17,7 +17,7 @@ const Directory = () => {
       <h1>Directory</h1>
       <span>
         <small>{guides.length} guides, {totalValidResources} resources.</small>
-        <small>last updated {lastUpdated()}</small>
+        <small>Last updated {lastUpdated()}</small>
       </span>
 
       <GuideTable />
