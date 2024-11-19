@@ -40,14 +40,6 @@
     "category": "general"
   },
   {
-    "id": 5,
-    "name": "Myrient",
-    "description": "A repository dedicated to archiving retro and modern game ROMs.",
-    "url": "https://myrient.erista.me/",
-    "guide": "ga",
-    "category": "video"
-  },
-  {
     "id": 6,
     "name": "Public-APIs",
     "description": "A comprehensive list of public APIs across a wide range of categories.",
