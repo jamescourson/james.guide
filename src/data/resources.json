@@ -1,6 +1,5 @@
 [
   {
-    "id": -1,
     "name": "Example Resource",
     "description": "Example description",
     "url": "https://place.holder",
@@ -8,7 +7,6 @@
     "category": "example"
   },
   {
-    "id": 1,
     "name": "MDN",
     "description": "Web development documentation, articles, tutorials, and other media.",
     "url": "https://developer.mozilla.org/",
@@ -16,7 +14,6 @@
     "category": "documentation"
   },
   {
-    "id": 2,
     "name": "Monkeytype",
     "description": "A typing practice app with plenty of features. Free and open source.",
     "url": "https://monkeytype.com/",
@@ -24,7 +21,6 @@
     "category": "skills"
   },
   {
-    "id": 3,
     "name": "I Build It",
     "description": "Reasonably-priced plans, focused on jigs, tools, and shop utilities.",
     "url": "https://ibuildit.ca/",
@@ -32,7 +28,6 @@
     "category": "plans"
   },
   {
-    "id": 4,
     "name": "The Wood Database",
     "description": "All the information you could reasonably need regarding hundreds of species of wood.",
     "url": "https://www.wood-database.com/",
@@ -40,7 +35,6 @@
     "category": "general"
   },
   {
-    "id": 6,
     "name": "Public-APIs",
     "description": "A comprehensive list of public APIs across a wide range of categories.",
     "url": "https://github.com/n0shake/Public-APIs",
@@ -48,7 +42,6 @@
     "category": "resources"
   },
   {
-    "id": 7,
     "name": "Tech Icons",
     "description": "Free SVG icons for almost any popular library, framework, or software you can think of.",
     "url": "https://techicons.dev/",
@@ -56,7 +49,6 @@
     "category": "resources"
   },
   {
-    "id": 8,
     "name": "Toptal Designers HTML Reference",
     "description": "An easy-to-use reference for HTML symbol codes.",
     "url": "https://www.toptal.com/designers/htmlarrows/",
@@ -64,7 +56,6 @@
     "category": "design"
   },
   {
-    "id": 9,
     "name": "HTML Color Codes",
     "description": "A list of every HTML color name, along with their respective hex and rgb codes.",
     "url": "https://htmlcolorcodes.com/color-names/",
@@ -72,7 +63,6 @@
     "category": "design"
   },
   {
-    "id": 10,
     "name": "J Perm",
     "description": "Thorough guides to methodically solving many popular twisty puzzles.",
     "url": "https://jperm.net/",
@@ -80,7 +70,6 @@
     "category": "skills"
   },
   {
-    "id": 11,
     "name": "Picular",
     "description": "A color picker based on Google Images results.",
     "url": "https://picular.co",
@@ -88,7 +77,6 @@
     "category": "design"
   },
   {
-    "id": 12,
     "name": "CubeDesk",
     "description": "A cube timer webapp with plenty of useful features, as well as a clean and intuitive UI.",
     "url": "https://www.cubedesk.io/",
@@ -96,7 +84,6 @@
     "category": "skills"
   },
   {
-    "id": 13,
     "name": "365Chess Analysis Board",
     "description": "A free tool with turn-level evaluation and suggested lines.",
     "url": "https://www.365chess.com/analysis_board.php",
@@ -104,7 +91,6 @@
     "category": "analysis"
   },
   {
-    "id": 15,
     "name": "Markdown Guide",
     "description": "An open-source reference for Markdown, written in Markdown.",
     "url": "https://www.markdownguide.org/",
@@ -112,7 +98,6 @@
     "category": "documentation"
   },
   {
-    "id": 16,
     "name": "Perenual Plant API",
     "description": "An API for plant information. Provides common and scientific names, growth information, images, and more.",
     "url": "https://perenual.com/docs/api",
@@ -120,7 +105,6 @@
     "category": "data"
   },
   {
-    "id": 17,
     "name": "USDA PLANTS Database",
     "description": "A database containing almost any information one could need regarding American plants.",
     "url": "https://plants.usda.gov/",
@@ -128,11 +112,17 @@
     "category": "data"
   },
   {
-    "id": 18,
     "name": "The Stanley Bench Plane Page",
     "description": "An exhaustive type study of vintage Stanley hand planes, along with a handy dating flowchart.",
     "url": "https://www.hyperkitten.com/tools/stanley_bench_plane/",
     "guide": "to",
     "category": "data"
+  },
+  {
+    "name": "AWS Icons",
+    "description": "Free SVG icons for AWS services.",
+    "url": "https://aws-icons.com/",
+    "guide": "dev",
+    "category": "resources"
   }
 ]
