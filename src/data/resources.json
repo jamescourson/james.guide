@@ -13,7 +13,7 @@
     "description": "Web development documentation, articles, tutorials, and other media.",
     "url": "https://developer.mozilla.org/",
     "guide": "dev",
-    "category": "web"
+    "category": "documentation"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "description": "A typing practice app with plenty of features. Free and open source.",
     "url": "https://monkeytype.com/",
     "guide": "dev",
-    "category": "general"
+    "category": "skills"
   },
   {
     "id": 3,
@@ -85,6 +85,22 @@
     "description": "Thorough guides to methodically solving many popular twisty puzzles.",
     "url": "https://jperm.net/",
     "guide": "cu",
-    "category": "general"
+    "category": "skills"
+  },
+  {
+    "id": 11,
+    "name": "Picular",
+    "description": "A color picker based on Google Images results.",
+    "url": "https://picular.co",
+    "guide": "dev",
+    "category": "resources"
+  },
+  {
+    "id": 12,
+    "name": "CubeDesk",
+    "description": "A cube timer webapp with plenty of useful features, as well as a clean and intuitive UI.",
+    "url": "https://www.cubedesk.io/",
+    "guide": "cu",
+    "category": "resources"
   }
 ]
