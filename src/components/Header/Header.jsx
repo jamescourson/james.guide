@@ -7,12 +7,14 @@ import './header.css';
 
 const Header = () => (
   <header>
-    <Link to="/">
-      <img src={Logo} alt="James' Guide" />
-    </Link>
+    <section id="highlighted">
+      <Link to="/">
+        <img src={Logo} alt="James' Guide" />
+      </Link>
+      
+      <LiveClock />
+    </section>
 
-    <LiveClock />
-    
     <nav>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/d/">Directory</NavLink>

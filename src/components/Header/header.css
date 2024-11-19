@@ -1,8 +1,14 @@
 header {
   display: flex;
   flex-direction: column;
+  gap: .5em;
+}
+
+header section#highlighted {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 1em;
+  padding: .5em;
   background-color: rgba(0, 0, 0, .1);
 }
 
@@ -17,16 +23,18 @@ header img {
 nav {
   display: flex;
   flex-flow: row nowrap;
-  gap: 1em;
-  justify-content: baseline;
+  justify-content: flex-start;
+  gap: .5em;
+  padding-left: .5em;
 }
 
 nav a {
   color: ivory;
   text-decoration: none;
-  padding: .5em 1em;
-  background-color: rgba(0, 0, 0, .15);
+  font-style: italic;
+  padding: .25em .5em;
   transition: background-color 128ms ease;
+  border-radius: .5em;
 }
 
 nav a.active {
