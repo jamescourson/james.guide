@@ -12,7 +12,7 @@ const GuideListing = ({ name, abbr }) => {
   return (
     <li className="table-row">
       <Link to={`/g/${abbr}`}>
-        <span>{name}</span>
+        <h3>{name}</h3>
         <small>{resourceCount} {resourceCount === 1 ? "resource" : "resources"}</small>
       </Link>
     </li>

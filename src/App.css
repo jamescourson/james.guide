@@ -6,5 +6,6 @@ main {
 
   color: ivory;
   
-  padding: 1em;
+  padding: 0 1em;
+  min-height: 84.5vh;
 }

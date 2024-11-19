@@ -15,7 +15,11 @@ const Directory = () => {
   return (
     <article id="directory">
       <h1>Directory</h1>
-      <small>{guides.length} guides | {totalValidResources} resources | last updated {lastUpdated()}</small>
+      <span>
+        <small>{guides.length} guides, {totalValidResources} resources.</small>
+        <small>last updated {lastUpdated()}</small>
+      </span>
+
       <GuideTable />
     </article>
   );
