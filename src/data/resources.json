@@ -78,5 +78,13 @@
     "url": "https://htmlcolorcodes.com/color-names/",
     "guide": "dev",
     "category": "resources"
+  },
+  {
+    "id": 10,
+    "name": "J Perm",
+    "description": "Thorough guides to methodically solving many popular twisty puzzles.",
+    "url": "https://jperm.net/",
+    "guide": "cu",
+    "category": "general"
   }
 ]
