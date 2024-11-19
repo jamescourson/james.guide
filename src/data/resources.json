@@ -134,5 +134,13 @@
     "url": "https://plants.usda.gov/",
     "guide": "pl",
     "category": "data"
+  },
+  {
+    "id": 18,
+    "name": "The Stanley Bench Plane Page",
+    "description": "An exhaustive type study of vintage Stanley hand planes, along with a handy dating flowchart.",
+    "url": "https://www.hyperkitten.com/tools/stanley_bench_plane/",
+    "guide": "to",
+    "category": "data"
   }
 ]
