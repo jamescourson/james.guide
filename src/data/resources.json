@@ -1,7 +1,7 @@
 [
   {
     "id": -1,
-    "title": "Example Resource",
+    "name": "Example Resource",
     "description": "Example description",
     "url": "https://place.holder",
     "guide": "example",
@@ -9,7 +9,7 @@
   },
   {
     "id": 1,
-    "title": "MDN",
+    "name": "MDN",
     "description": "Web development documentation, articles, tutorials, and other media.",
     "url": "https://developer.mozilla.org/",
     "guide": "dev",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "title": "Monkeytype",
+    "name": "Monkeytype",
     "description": "A typing practice app with plenty of features. Free and open source.",
     "url": "https://monkeytype.com/",
     "guide": "dev",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "title": "I Build It",
+    "name": "I Build It",
     "description": "Reasonably-priced plans, focused on jigs, tools, and shop utilities.",
     "url": "https://ibuildit.ca/",
     "guide": "ww",
@@ -33,7 +33,7 @@
   },
   {
     "id": 4,
-    "title": "The Wood Database",
+    "name": "The Wood Database",
     "description": "All the information you could reasonably need regarding hundreds of species of wood.",
     "url": "https://www.wood-database.com/",
     "guide": "ww",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "title": "Myrient",
+    "name": "Myrient",
     "description": "A repository dedicated to archiving retro and modern game ROMs.",
     "url": "https://myrient.erista.me/",
     "guide": "ga",
@@ -49,7 +49,7 @@
   },
   {
     "id": 6,
-    "title": "Public-APIs",
+    "name": "Public-APIs",
     "description": "A comprehensive list of public APIs across a wide range of categories.",
     "url": "https://github.com/n0shake/Public-APIs",
     "guide": "dev",
@@ -57,7 +57,7 @@
   },
   {
     "id": 7,
-    "title": "Tech Icons",
+    "name": "Tech Icons",
     "description": "Free SVG icons for almost any popular library, framework, or software you can think of.",
     "url": "https://techicons.dev/",
     "guide": "dev",
@@ -65,7 +65,7 @@
   },
   {
     "id": 8,
-    "title": "Toptal Designers HTML Reference",
+    "name": "Toptal Designers HTML Reference",
     "description": "An easy-to-use reference for HTML symbol codes.",
     "url": "https://www.toptal.com/designers/htmlarrows/",
     "guide": "dev",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "title": "HTML Color Codes",
+    "name": "HTML Color Codes",
     "description": "A list of every HTML color name, along with its hex and rgb codes.",
     "url": "https://htmlcolorcodes.com/color-names/",
     "guide": "dev",
