@@ -26,7 +26,8 @@ const Home = () => (
       <h2>Coming Soon</h2>
       <p>Here's some features to look forward to:</p>
       <ul>
-        <li>Suggesting & commending resources</li>
+        <li>Commending resources</li>
+        <li>"Last updated" column for guide listings</li>
       </ul>
     </article>
   </>
