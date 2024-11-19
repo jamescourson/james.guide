@@ -28,6 +28,7 @@ const Home = () => (
       <ul>
         <li>Commending resources</li>
         <li>"Last updated" column for guide listings</li>
+        <li>"Added" column for resource listings</li>
       </ul>
     </article>
   </>
