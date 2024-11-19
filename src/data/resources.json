@@ -70,5 +70,13 @@
     "url": "https://www.toptal.com/designers/htmlarrows/",
     "guide": "dev",
     "category": "resources"
+  },
+  {
+    "id": 9,
+    "title": "HTML Color Codes",
+    "description": "A list of every HTML color name, along with its hex and rgb codes.",
+    "url": "https://htmlcolorcodes.com/color-names/",
+    "guide": "dev",
+    "category": "resources"
   }
 ]
