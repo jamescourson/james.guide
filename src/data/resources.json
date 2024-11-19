@@ -61,7 +61,7 @@
     "description": "An easy-to-use reference for HTML symbol codes.",
     "url": "https://www.toptal.com/designers/htmlarrows/",
     "guide": "dev",
-    "category": "resources"
+    "category": "design"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "description": "A list of every HTML color name, along with their respective hex and rgb codes.",
     "url": "https://htmlcolorcodes.com/color-names/",
     "guide": "dev",
-    "category": "resources"
+    "category": "design"
   },
   {
     "id": 10,
@@ -85,7 +85,7 @@
     "description": "A color picker based on Google Images results.",
     "url": "https://picular.co",
     "guide": "dev",
-    "category": "resources"
+    "category": "design"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "description": "A cube timer webapp with plenty of useful features, as well as a clean and intuitive UI.",
     "url": "https://www.cubedesk.io/",
     "guide": "cu",
-    "category": "resources"
+    "category": "skills"
   },
   {
     "id": 13,
@@ -110,5 +110,13 @@
     "url": "https://www.themealdb.com/",
     "guide": "ck",
     "category": "recipes"
+  },
+  {
+    "id": 15,
+    "name": "Markdown Guide",
+    "description": "An open-source reference for Markdown, written in Markdown.",
+    "url": "https://www.markdownguide.org/",
+    "guide": "dev",
+    "category": "documentation"
   }
 ]
