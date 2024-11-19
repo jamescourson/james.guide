@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid ivory;
+  padding-left: 0;
+  list-style: none;
+}
+
+ul .table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  text-decoration: none;
+  padding: 1em;
+  border-bottom: 1px solid ivory;
+}
+
+ul .table-row:hover {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+ul .table-row:hover span {
+  text-decoration: underline;
+}
