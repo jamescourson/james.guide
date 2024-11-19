@@ -14,6 +14,7 @@ const Header = () => (
     <LiveClock />
     
     <nav>
+      <NavLink to="/">Home</NavLink>
       <NavLink to="/d/">Directory</NavLink>
       <NavLink to="/j/">Journal</NavLink>
     </nav>
