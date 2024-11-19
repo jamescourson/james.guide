@@ -1,5 +1,5 @@
 import './directory.css';
-import ResourceTable from '../../components/ResourceTable/ResourceTable';
+import GuideTable from '../../components/GuideTable/guideTable';
 
 import guides from '../../data/guides.json';
 import resources from '../../data/resources.json';
@@ -13,10 +13,10 @@ const Directory = () => {
   }
 
   return (
-    <article>
+    <article id="directory">
       <h1>Directory</h1>
       <small>{guides.length} guides | {totalValidResources} resources | last updated {lastUpdated()}</small>
-      <ResourceTable />
+      <GuideTable />
     </article>
   );
 }

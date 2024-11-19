@@ -1,28 +1,31 @@
-import { Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
+import { useMemo } from 'react';
 
-import guides from '../../data/guides.json';
 import resources from '../../data/resources.json';
 
 import './resourceTable.css';
 
 
-const GuideListing = ({ name, abbr }) => {
-  const resourceCount = resources.filter(resource => resource.guide === abbr).length;
+const Resource = ({ data }) => {
+  const { title, description, url } = data;
 
   return (
-    <li>
-      <Link to={`/g/${abbr}`} class="table-row">
-        <span>{name}</span>
-        <small>{resourceCount} resources</small>
+    <li className="table-row">
+      <Link to={url} target="_blank">
+        <h3>{title}:</h3>
+        <p>{description}</p>
       </Link>
     </li>
   );
 }
 
 const ResourceTable = () => {
+  const { abbr } = useParams();
+  const filteredResources = useMemo(() => resources.filter(resource => resource.guide === abbr));
+
   return (
-    <ul>
-      {guides.map(({ name, abbr }, i) => (<GuideListing name={name} abbr={abbr} key={i} />))}
+    <ul id="resource-table">
+      {filteredResources.map((resource, key) => <Resource data={resource} key={key} />)}
     </ul>
   );
 }

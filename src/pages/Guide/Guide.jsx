@@ -3,19 +3,10 @@ import { Link, useParams } from 'react-router-dom';
 import guides from '../../data/guides.json';
 import resources from '../../data/resources.json';
 
+import ResourceTable from '../../components/ResourceTable/ResourceTable';
+
 import './guide.css';
 
-
-const Resource = ({ data }) => {
-  const { title, description, url } = data;
-
-  return (
-    <article>
-      <h2><Link to={url}>{title}</Link></h2>
-      <p>{description}</p>
-    </article>
-  );
-}
 
 const Guide = () => {
   const { abbr } = useParams();
@@ -24,13 +15,11 @@ const Guide = () => {
   // todo: group resources by category, alphabetize
 
   return (
-    <>
+    <article>
       <h1>{guideData.name}</h1>
-      <Link to="/d/">&#10510;&nbsp;<small>Directory</small></Link>
-      <ul>
-        {filteredResources.map((resource, key) => <Resource data={resource} key={key} />)}
-      </ul>
-    </>
+      <Link to="/d/">&#8629;&nbsp;<small>Return</small></Link>
+      <ResourceTable />
+    </article>
   );
 }
 
