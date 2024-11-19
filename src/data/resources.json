@@ -118,5 +118,21 @@
     "url": "https://www.markdownguide.org/",
     "guide": "dev",
     "category": "documentation"
+  },
+  {
+    "id": 16,
+    "name": "Perenual Plant API",
+    "description": "An API for plant information. Provides common and scientific names, growth information, images, and more.",
+    "url": "https://perenual.com/docs/api",
+    "guide": "pl",
+    "category": "data"
+  },
+  {
+    "id": 17,
+    "name": "USDA PLANTS Database",
+    "description": "A database containing almost any information one could need regarding American plants.",
+    "url": "https://plants.usda.gov/",
+    "guide": "pl",
+    "category": "data"
   }
 ]
