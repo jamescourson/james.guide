@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "HTML Color Codes",
-    "description": "A list of every HTML color name, along with its hex and rgb codes.",
+    "description": "A list of every HTML color name, along with their respective hex and rgb codes.",
     "url": "https://htmlcolorcodes.com/color-names/",
     "guide": "dev",
     "category": "resources"
