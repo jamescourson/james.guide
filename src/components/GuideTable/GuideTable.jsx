@@ -20,7 +20,7 @@ const GuideListing = ({ name, abbr }) => {
 }
 
 const GuideTable = () => {
-  const alphabetizedGuides = guides.sort((guideA, guideB) => {
+  const alphabetizedGuides = guides.slice().sort((guideA, guideB) => {
     if (guideA.name < guideB.name) {
       return -1;
     }
@@ -29,8 +29,6 @@ const GuideTable = () => {
     }
     return 0;
   });
-  
-  console.log(alphabetizedGuides)
 
   return (
     <ul id="guide-table">

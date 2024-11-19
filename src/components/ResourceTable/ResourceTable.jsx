@@ -1,10 +1,22 @@
 import { useParams, Link } from 'react-router-dom';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 
 import resources from '../../data/resources.json';
 
 import './resourceTable.css';
 
+
+const alphabetize = (arr) => 
+  arr.slice().sort((resourceA, resourceB) => {
+    if (resourceA.name < resourceB.name) {
+      return -1;
+    }
+    else if (resourceA.name > resourceB.name) {
+      return 1;
+    }
+    return 0;
+  }
+);
 
 const Resource = ({ data }) => {
   const { name, description, url } = data;
@@ -22,22 +34,30 @@ const Resource = ({ data }) => {
 const ResourceTable = () => {  
   const { abbr } = useParams();
   const filteredResources = useMemo(() => resources.filter(resource => resource.guide === abbr));
+  const alphabetizedResources = useMemo(() => alphabetize(filteredResources));
 
-  const alphabetizedResources = filteredResources.sort((resourceA, resourceB) => {
-    if (resourceA.name < resourceB.name) {
-      return -1;
-    }
-    else if (resourceA.name > resourceB.name) {
-      return 1;
-    }
-    return 0;
-  });
+  const groupBy = (arr, property) =>
+    arr.reduce((memo, x) => {
+      if (!memo[x[property]]) {
+        memo[x[property]] = [];
+      }
+      memo[x[property]].push(x);
+      return memo;
+  }, {});
   
-  console.log(alphabetizedResources);
+  const categorizedResources = useMemo(() => groupBy(alphabetizedResources, 'category'));
+  const alphabetizedCategories = Object.keys(categorizedResources).sort();
 
   return (
-    <ul id="resource-table">
-      {filteredResources.map((resource, key) => <Resource data={resource} key={key} />)}
+    <ul>
+      {alphabetizedCategories.map((category, index) => (
+        <li key={index}>
+          <h2>{alphabetizedCategories[index].charAt(0).toUpperCase() + alphabetizedCategories[index].slice(1)}</h2>
+          <ul id="resource-table">
+            {categorizedResources[category].map((resource, key) => <Resource data={resource} key={key} />)}
+          </ul>
+        </li>
+      ))}
     </ul>
   );
 }
