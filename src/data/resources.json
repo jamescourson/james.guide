@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "365Chess Analysis Board",
-    "description": "A free chess analysis tool with turn-level evaluation and suggested lines.",
+    "description": "A free tool with turn-level evaluation and suggested lines.",
     "url": "https://www.365chess.com/analysis_board.php",
     "guide": "ch",
     "category": "analysis"
