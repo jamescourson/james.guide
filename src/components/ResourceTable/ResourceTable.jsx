@@ -7,21 +7,33 @@ import './resourceTable.css';
 
 
 const Resource = ({ data }) => {
-  const { title, description, url } = data;
+  const { name, description, url } = data;
 
   return (
     <li className="table-row">
       <Link to={url} target="_blank">
-        <h3>{title}:</h3>
+        <h3>{name}:</h3>
         <p>{description}</p>
       </Link>
     </li>
   );
 }
 
-const ResourceTable = () => {
+const ResourceTable = () => {  
   const { abbr } = useParams();
   const filteredResources = useMemo(() => resources.filter(resource => resource.guide === abbr));
+
+  const alphabetizedResources = filteredResources.sort((resourceA, resourceB) => {
+    if (resourceA.name < resourceB.name) {
+      return -1;
+    }
+    else if (resourceA.name > resourceB.name) {
+      return 1;
+    }
+    return 0;
+  });
+  
+  console.log(alphabetizedResources);
 
   return (
     <ul id="resource-table">

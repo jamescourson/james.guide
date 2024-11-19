@@ -20,9 +20,21 @@ const GuideListing = ({ name, abbr }) => {
 }
 
 const GuideTable = () => {
+  const alphabetizedGuides = guides.sort((guideA, guideB) => {
+    if (guideA.name < guideB.name) {
+      return -1;
+    }
+    else if (guideA.name > guideB.name) {
+      return 1;
+    }
+    return 0;
+  });
+  
+  console.log(alphabetizedGuides)
+
   return (
     <ul id="guide-table">
-      {guides.map(({ name, abbr }, i) => (<GuideListing name={name} abbr={abbr} key={i} />))}
+      {alphabetizedGuides.map(({ name, abbr }, i) => (<GuideListing name={name} abbr={abbr} key={i} />))}
     </ul>
   );
 }
