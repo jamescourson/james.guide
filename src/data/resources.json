@@ -104,14 +104,6 @@
     "category": "analysis"
   },
   {
-    "id": 14,
-    "name": "TheMealDB",
-    "description": "An open-access database of refined recipes.",
-    "url": "https://www.themealdb.com/",
-    "guide": "ck",
-    "category": "recipes"
-  },
-  {
     "id": 15,
     "name": "Markdown Guide",
     "description": "An open-source reference for Markdown, written in Markdown.",
