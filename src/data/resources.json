@@ -58,8 +58,16 @@
   {
     "id": 7,
     "title": "Tech Icons",
-    "description": "Free SVG icons for almost any popular library, framework, or software you've used before.",
+    "description": "Free SVG icons for almost any popular library, framework, or software you can think of.",
     "url": "https://techicons.dev/",
+    "guide": "dev",
+    "category": "resources"
+  },
+  {
+    "id": 8,
+    "title": "Toptal Designers HTML Reference",
+    "description": "An easy-to-use reference for HTML symbol codes.",
+    "url": "https://www.toptal.com/designers/htmlarrows/",
     "guide": "dev",
     "category": "resources"
   }
