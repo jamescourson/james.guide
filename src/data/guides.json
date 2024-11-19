@@ -1,7 +1,7 @@
 [
   {
-    "name": "Board Games",
-    "abbr": "bg"
+    "name": "Games",
+    "abbr": "ga"
   },
   {
     "name": "Chess",
@@ -18,14 +18,6 @@
   {
     "name": "DIY",
     "abbr": "diy"
-  },
-  {
-    "name": "Music",
-    "abbr": "mu"
-  },
-  {
-    "name": "Origami",
-    "abbr": "or"
   },
   {
     "name": "Plants",
