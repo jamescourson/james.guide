@@ -22,7 +22,7 @@ const Resource = ({ data }) => {
   const { name, description, url } = data;
 
   return (
-    <li className="table-row">
+    <li className="list-row">
       <Link to={url} target="_blank">
         <h3>{name}:</h3>
         <p>{description}</p>
@@ -49,11 +49,11 @@ const ResourceTable = () => {
   const alphabetizedCategories = Object.keys(categorizedResources).sort();
 
   return (
-    <ul>
+    <ul id="guide-resources-list">
       {alphabetizedCategories.map((category, index) => (
         <li key={index}>
           <h2>{alphabetizedCategories[index].charAt(0).toUpperCase() + alphabetizedCategories[index].slice(1)}</h2>
-          <ul id="resource-table">
+          <ul id="resource-list">
             {categorizedResources[category].map((resource, key) => <Resource data={resource} key={key} />)}
           </ul>
         </li>
