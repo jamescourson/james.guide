@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import './directory.css';
 import GuideTable from '../../components/GuideTable/guideTable';
 
@@ -6,17 +8,15 @@ import resources from '../../data/resources.json';
 
 
 const Directory = () => {
-  const lastUpdated = () => {
-    const newDate = new Date();
-    return `${newDate.toLocaleDateString()}, ${newDate.toLocaleTimeString()}`;
-  }
+  const formatDate = date => `${date.toLocaleDateString()}, ${date.toLocaleTimeString()}`;
+  const getLastUpdated = () => new Date();
 
   return (
     <article id="directory">
       <h1>Directory</h1>
       <span>
         <small>{guides.length} guides, {resources.length} resources.</small>
-        <small>Last updated {lastUpdated()}</small>
+        <small>Last updated {formatDate(getLastUpdated())}</small>
       </span>
 
       <GuideTable />
