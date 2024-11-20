@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import './directory.css';
 import GuideTable from '../../components/GuideTable/guideTable';
 
