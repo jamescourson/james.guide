@@ -29,7 +29,7 @@
   },
   {
     "name": "The Wood Database",
-    "description": "All the information you could reasonably need regarding hundreds of species of wood.",
+    "description": "Information and statistics for hundreds of species of wood.",
     "url": "https://www.wood-database.com/",
     "guide": "ww",
     "category": "information"
@@ -43,7 +43,7 @@
   },
   {
     "name": "Tech Icons",
-    "description": "Free SVG icons for almost any popular library, framework, or software you can think of.",
+    "description": "Free SVG icons for almost any popular library, framework, or software.",
     "url": "https://techicons.dev/",
     "guide": "dev",
     "category": "resources"
@@ -71,7 +71,7 @@
   },
   {
     "name": "Picular",
-    "description": "A color picker based on Google Images results.",
+    "description": "A color picker based on Google Images results. Useful for generating a color based on a mental description alone.",
     "url": "https://picular.co",
     "guide": "dev",
     "category": "design"
