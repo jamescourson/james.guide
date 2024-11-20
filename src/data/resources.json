@@ -131,5 +131,12 @@
     "url": "https://trefle.io",
     "guide": "pl",
     "category": "data"
+  },
+  {
+    "name": "Ruwix",
+    "description": "A wiki-style resource for any twisty puzzle. Includes timers, simulators, solvers, and a lot of good information.",
+    "url": "https://ruwix.com/",
+    "guide": "cu",
+    "category": "Information"
   }
 ]
