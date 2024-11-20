@@ -32,7 +32,7 @@
     "description": "All the information you could reasonably need regarding hundreds of species of wood.",
     "url": "https://www.wood-database.com/",
     "guide": "ww",
-    "category": "general"
+    "category": "information"
   },
   {
     "name": "Public-APIs",
@@ -137,6 +137,13 @@
     "description": "A wiki-style resource for any twisty puzzle. Includes timers, simulators, solvers, and a lot of good information.",
     "url": "https://ruwix.com/",
     "guide": "cu",
-    "category": "Information"
+    "category": "information"
+  },
+  {
+    "name": "Sharpening Handbook",
+    "description": "Thorough instructions and diagrams relevant to almost any tool or blade shape.",
+    "url": "https://sharpeninghandbook.info/",
+    "guide": "ww",
+    "category": "tools"
   }
 ]
