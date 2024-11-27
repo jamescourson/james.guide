@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 
 import guides from '../../data/guides.json';
@@ -5,6 +6,12 @@ import resources from '../../data/resources.json';
 
 import './guideTable.css';
 
+
+const alphabetize = (arr) => 
+  arr.slice().sort((resourceA, resourceB) => 
+    (resourceA.name < resourceB.name ? -1 :
+      (resourceA.name > resourceB.name ? 1 : 0))
+  );
 
 const GuideListing = ({ name, abbr }) => {
   const resourceCount = resources.filter(resource => resource.guide === abbr).length;
@@ -20,15 +27,7 @@ const GuideListing = ({ name, abbr }) => {
 }
 
 const GuideTable = () => {
-  const alphabetizedGuides = guides.slice().sort((guideA, guideB) => {
-    if (guideA.name < guideB.name) {
-      return -1;
-    }
-    else if (guideA.name > guideB.name) {
-      return 1;
-    }
-    return 0;
-  });
+  const alphabetizedGuides = useMemo(() => alphabetize(guides));
 
   return (
     <ul id="guide-table">

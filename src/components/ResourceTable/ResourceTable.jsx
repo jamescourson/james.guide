@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 
 import resources from '../../data/resources.json';
 
@@ -7,16 +7,10 @@ import './resourceTable.css';
 
 
 const alphabetize = (arr) => 
-  arr.slice().sort((resourceA, resourceB) => {
-    if (resourceA.name < resourceB.name) {
-      return -1;
-    }
-    else if (resourceA.name > resourceB.name) {
-      return 1;
-    }
-    return 0;
-  }
-);
+  arr.slice().sort((resourceA, resourceB) => 
+    (resourceA.name < resourceB.name ? -1 :
+      (resourceA.name > resourceB.name ? 1 : 0))
+  );
 
 const Resource = ({ data }) => {
   const { name, description, url } = data;
@@ -43,7 +37,7 @@ const ResourceTable = () => {
       }
       memo[x[property]].push(x);
       return memo;
-  }, {});
+    }, {});
   
   const categorizedResources = useMemo(() => groupBy(alphabetizedResources, 'category'));
   const alphabetizedCategories = Object.keys(categorizedResources).sort();
