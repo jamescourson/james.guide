@@ -71,7 +71,7 @@
   },
   {
     "name": "Picular",
-    "description": "A color picker based on Google Images results. Useful for generating a color based on a mental description alone.",
+    "description": "A color picker based on Google Images results. Useful for generating a color based on just a description.",
     "url": "https://picular.co",
     "guide": "dev",
     "category": "design"
@@ -145,5 +145,12 @@
     "url": "https://sharpeninghandbook.info/",
     "guide": "ww",
     "category": "tools"
+  },
+  {
+    "name": "Chime Design and Build",
+    "description": "Anything and everything you need to know if you're thinking about making a set of wind chimes.",
+    "url": "https://leehite.org/Chimes.htm",
+    "guide": "ww",
+    "category": "information"
   }
 ]
