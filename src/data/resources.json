@@ -166,5 +166,19 @@
     "url": "https://woodarchivist.com/",
     "guide": "ww",
     "category": "plans"
+  },
+  {
+    "name": "Chesstree",
+    "description": "A clever visualization of chess positions; useful for learning opening variations and common traps.",
+    "url": "https://www.chesstree.net/",
+    "guide": "ch",
+    "category": "analysis"
+  },
+  {
+    "name": "Tim Krabbé's Chess Curiosities",
+    "description": "Stories, studies, and analyses of interesting games, positions, players, and concepts.",
+    "url": "https://timkr.home.xs4all.nl/chess/chess.html",
+    "guide": "ch",
+    "category": "analysis"
   }
 ]
