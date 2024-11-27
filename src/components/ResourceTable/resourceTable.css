@@ -32,12 +32,12 @@
   border-bottom: 1px solid ivory;
 }
 
-#resource-list .list-row h3 {
-  margin: 0;
+#resource-list:last-child {
+  border-bottom: none;
 }
 
-#resource-list .list-row:last-child {
-  border-bottom: none;
+#resource-list .list-row h3 {
+  margin: 0;
 }
 
 #resource-list .list-row:hover {
