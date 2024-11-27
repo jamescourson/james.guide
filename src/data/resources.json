@@ -39,14 +39,14 @@
     "description": "A comprehensive list of public APIs across a wide range of categories.",
     "url": "https://github.com/n0shake/Public-APIs",
     "guide": "dev",
-    "category": "resources"
+    "category": "data"
   },
   {
     "name": "Tech Icons",
     "description": "Free SVG icons for almost any popular library, framework, or software.",
     "url": "https://techicons.dev/",
     "guide": "dev",
-    "category": "resources"
+    "category": "assets"
   },
   {
     "name": "Toptal Designers HTML Reference",
@@ -123,7 +123,7 @@
     "description": "Free SVG icons for AWS services.",
     "url": "https://aws-icons.com/",
     "guide": "dev",
-    "category": "resources"
+    "category": "assets"
   },
   {
     "name": "Trefle",
