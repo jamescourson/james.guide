@@ -152,5 +152,12 @@
     "url": "https://leehite.org/Chimes.htm",
     "guide": "ww",
     "category": "information"
+  },
+  {
+    "name": "70birds",
+    "description": "Free plans for birdhouses; specific to North American species.",
+    "url": "https://70birds.com/",
+    "guide": "ww",
+    "category": "plans"
   }
 ]
