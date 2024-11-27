@@ -1,14 +1,7 @@
 [
   {
-    "name": "Example Resource",
-    "description": "Example description",
-    "url": "https://place.holder",
-    "guide": "example",
-    "category": "example"
-  },
-  {
     "name": "MDN",
-    "description": "Web development documentation, articles, tutorials, and other media.",
+    "description": "Web development documentation, articles, and guides.",
     "url": "https://developer.mozilla.org/",
     "guide": "dev",
     "category": "documentation"
@@ -64,7 +57,7 @@
   },
   {
     "name": "J Perm",
-    "description": "Thorough guides to methodically solving many popular twisty puzzles.",
+    "description": "High-quality guides to methodically solving twisty puzzles.",
     "url": "https://jperm.net/",
     "guide": "cu",
     "category": "skills"
@@ -78,7 +71,7 @@
   },
   {
     "name": "CubeDesk",
-    "description": "A cube timer webapp with plenty of useful features, as well as a clean and intuitive UI.",
+    "description": "A well-designed and intuitive timer webapp.",
     "url": "https://www.cubedesk.io/",
     "guide": "cu",
     "category": "skills"
