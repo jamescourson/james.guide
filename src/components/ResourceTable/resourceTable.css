@@ -1,12 +1,13 @@
 #guide-resources-list {
   position: relative;
   list-style-type: none;
+  padding-left: 1em;
 }
 
 #guide-resources-list > li::before {
   content: '>';
   position: absolute;
-  left: 1.25em;
+  left: -.25em;
   margin-top: .25em;
   font-weight: bold;
 }
