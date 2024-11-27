@@ -152,5 +152,19 @@
     "url": "https://70birds.com/",
     "guide": "ww",
     "category": "plans"
+  },
+  {
+    "name": "Woodgears.ca",
+    "description": "Engineering-focused woodworking; plans for jigs, homemade tools, and more.",
+    "url": "https://woodgears.ca/index.html",
+    "guide": "ww",
+    "category": "plans"
+  },
+  {
+    "name": "WoodArchivist",
+    "description": "Free plans, scanned from woodworking magazines.",
+    "url": "https://woodarchivist.com/",
+    "guide": "ww",
+    "category": "plans"
   }
 ]
