@@ -22,7 +22,7 @@
   },
   {
     "name": "I Build It",
-    "description": "Reasonably-priced plans, focused on jigs, tools, and shop utilities.",
+    "description": "Plans for jigs and homemade tools; also offers useful guides and tips.",
     "url": "https://ibuildit.ca/",
     "guide": "ww",
     "category": "plans"
@@ -155,10 +155,10 @@
   },
   {
     "name": "Woodgears.ca",
-    "description": "Engineering-focused woodworking; plans for jigs, homemade tools, and more.",
+    "description": "Engineering-focused guides and techniques; also offers plans for jigs, homemade tools, and more.",
     "url": "https://woodgears.ca/index.html",
     "guide": "ww",
-    "category": "plans"
+    "category": "information"
   },
   {
     "name": "WoodArchivist",
