@@ -44,14 +44,21 @@ const ResourceTable = () => {
 
   return (
     <ul id="guide-resources-list">
-      {alphabetizedCategories.map((category, index) => (
-        <li key={index}>
-          <h2>{alphabetizedCategories[index].charAt(0).toUpperCase() + alphabetizedCategories[index].slice(1)}</h2>
-          <ul id="resource-list">
-            {categorizedResources[category].map((resource, key) => <Resource data={resource} key={key} />)}
-          </ul>
-        </li>
-      ))}
+      {alphabetizedCategories.map((category, index) => {
+        const formattedCategoryName = alphabetizedCategories[index].charAt(0).toUpperCase() + alphabetizedCategories[index].slice(1);
+        return (
+          <li key={index}>
+            <span className="resource-list-header">
+              <h2>&gt; {formattedCategoryName}</h2>
+              <small>{categorizedResources[category].length} {categorizedResources[category].length === 1 ? 'resource' : 'resources'}</small>
+            </span>
+            <ul id="resource-list">
+              {categorizedResources[category].map((resource, key) => <Resource data={resource} key={key} />)}
+            </ul>
+          </li>
+        );
+      }
+      )}
     </ul>
   );
 }

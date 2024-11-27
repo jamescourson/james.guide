@@ -1,9 +1,15 @@
-article h1 {
-  padding-bottom: .5em;
+#guide-header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
   border-bottom: 2px solid ivory;
 }
 
 #return {
+  display: inline-block;
+  margin-top: .5em;
   padding: .5em .75em;
   text-decoration: none;
   background-color: rgba(0, 0, 0, .1);

@@ -4,12 +4,13 @@
   padding-left: 1em;
 }
 
-#guide-resources-list > li::before {
-  content: '>';
-  position: absolute;
-  left: -.25em;
-  margin-top: .25em;
-  font-weight: bold;
+.resource-list-header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  margin-left: -1em;
 }
 
 #resource-list {
