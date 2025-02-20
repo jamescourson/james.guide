@@ -173,5 +173,12 @@
     "url": "https://timkr.home.xs4all.nl/chess/chess.html",
     "guide": "ch",
     "category": "analysis"
+  },
+  {
+    "name": "Paul Sellers' Workbench Info Page",
+    "description": "A master craftsman's guide to creating a workbench. Offers free plans and build guides, as well as well-established concepts and rules of thumb to have in mind when designing and building your own workbench.",
+    "url": "https://paulsellers.com/paul-sellers-workbench-plans/",
+    "guide": "ww",
+    "category": "plans"
   }
 ]
