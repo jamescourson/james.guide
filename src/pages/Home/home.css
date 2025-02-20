@@ -1,3 +1,5 @@
-article {
-  max-width: 55vw;
+@media screen and (min-width: 768px) {
+  article {
+    max-width: 55vw;
+  }
 }
