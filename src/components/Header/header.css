@@ -23,7 +23,7 @@ header img {
 nav {
   display: inline-flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: .5em;
   padding-left: .5em;
 }
