@@ -10,10 +10,9 @@ const Home = () => (
     <article>
       <h2>About</h2>
       <p>
-        This website serves as a repository for <b>practical web resources</b>, mainly related to <b>woodworking tools and techniques</b>.
-        <small>(There's also a <Link to="/j/">dumb blog</Link>!)</small>
+        This website serves as a repository for <b>practical web resources</b>, mainly related to <b>woodworking tools and techniques</b>. <small>(There's also a <Link to="/j/">dumb blog</Link>!)</small>
         <br />
-        If it's your first time here, take a look at the <Link to="/d">Directory</Link> to get started!
+        If it's your first time here, take a look at the <Link to="/d">Directory</Link> to get started.
       </p>
 
       <p>
