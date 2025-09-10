@@ -71,7 +71,7 @@
   },
   {
     "name": "Lost Art Press",
-    "description": "My personal favorite resource for woodworking knowledge. Excellent books, and a wonderful blog.",
+    "description": "My personal favorite resource for anything related to wood. Excellent books, and a wonderful blog.",
     "url": "https://lostartpress.com/",
     "guide": "rs",
     "category": "blogs"
@@ -82,5 +82,33 @@
     "url": "https://donsbarn.com",
     "guide": "rs",
     "category": "blogs"
+  },
+  {
+    "name": "Pask Makes",
+    "description": "Craftsman Neil Pask's YouTube channel. Homemade tools, furniture, and art. Possibly the most patient man on Earth.",
+    "url": "https://www.youtube.com/@PaskMakes",
+    "guide": "rs",
+    "category": "creators"
+  },
+  {
+    "name": "Workshop Companion",
+    "description": "Author and craftsman Nick Engler's YouTube channel. Plans, techniques, jigs, homemade finishes, and much more.",
+    "url": "https://www.youtube.com/@WorkshopCompanion",
+    "guide": "rs",
+    "category": "creators"
+  },
+  {
+    "name": "The Instrument Makers",
+    "description": "Excellent video-format interviews, shop tours, and information about the making of fine instruments.",
+    "url": "https://www.youtube.com/@TheInstrumentMakers",
+    "guide": "rs",
+    "category": "creators"
+  },
+  {
+    "name": "Hyperkitten Tool Company",
+    "description": "Vintage and modern tools at excellent prices. New tools posted multiple times per week.",
+    "url": "https://www.hyperkitten.com/store/index.php",
+    "guide": "rs",
+    "category": "stores"
   }
 ]
