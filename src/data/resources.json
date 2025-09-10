@@ -1,184 +1,86 @@
 [
   {
-    "name": "MDN",
-    "description": "Web development documentation, articles, and guides.",
-    "url": "https://developer.mozilla.org/",
-    "guide": "dev",
-    "category": "documentation"
-  },
-  {
-    "name": "Monkeytype",
-    "description": "A typing practice app with plenty of features. Free and open source.",
-    "url": "https://monkeytype.com/",
-    "guide": "dev",
-    "category": "skills"
-  },
-  {
     "name": "I Build It",
-    "description": "Plans for jigs and homemade tools; also offers useful guides and tips.",
+    "description": "Plans for jigs and homemade tools, as well as a ton of useful guides and tips.",
     "url": "https://ibuildit.ca/",
-    "guide": "ww",
-    "category": "plans"
+    "guide": "pl",
+    "category": "jigs"
   },
   {
     "name": "The Wood Database",
     "description": "Information and statistics for hundreds of species of wood.",
     "url": "https://www.wood-database.com/",
-    "guide": "ww",
+    "guide": "rs",
     "category": "information"
   },
   {
-    "name": "Public-APIs",
-    "description": "A comprehensive list of public APIs across a wide range of categories.",
-    "url": "https://github.com/n0shake/Public-APIs",
-    "guide": "dev",
-    "category": "tools"
-  },
-  {
-    "name": "Tech Icons",
-    "description": "Free SVG icons for almost any popular library, framework, or software.",
-    "url": "https://techicons.dev/",
-    "guide": "dev",
-    "category": "assets"
-  },
-  {
-    "name": "Toptal Designers HTML Reference",
-    "description": "An easy-to-use reference for HTML symbol codes.",
-    "url": "https://www.toptal.com/designers/htmlarrows/",
-    "guide": "dev",
-    "category": "design"
-  },
-  {
-    "name": "HTML Color Codes",
-    "description": "A list of every HTML color name, along with their respective hex and rgb codes.",
-    "url": "https://htmlcolorcodes.com/color-names/",
-    "guide": "dev",
-    "category": "design"
-  },
-  {
-    "name": "J Perm",
-    "description": "High-quality guides to methodically solving twisty puzzles.",
-    "url": "https://jperm.net/",
-    "guide": "cu",
-    "category": "skills"
-  },
-  {
-    "name": "Picular",
-    "description": "A color picker based on Google Images results. Useful for generating a color based on just a description.",
-    "url": "https://picular.co",
-    "guide": "dev",
-    "category": "design"
-  },
-  {
-    "name": "CubeDesk",
-    "description": "A well-designed and intuitive timer webapp.",
-    "url": "https://www.cubedesk.io/",
-    "guide": "cu",
-    "category": "skills"
-  },
-  {
-    "name": "365Chess Analysis Board",
-    "description": "A free tool with turn-level evaluation and suggested lines.",
-    "url": "https://www.365chess.com/analysis_board.php",
-    "guide": "ch",
-    "category": "analysis"
-  },
-  {
-    "name": "Markdown Guide",
-    "description": "An open-source reference for Markdown, written in Markdown.",
-    "url": "https://www.markdownguide.org/",
-    "guide": "dev",
-    "category": "documentation"
-  },
-  {
-    "name": "Perenual Plant API",
-    "description": "An API for plant information. Provides common and scientific names, growth information, images, and more.",
-    "url": "https://perenual.com/docs/api",
-    "guide": "pl",
-    "category": "data"
-  },
-  {
-    "name": "USDA PLANTS Database",
-    "description": "A database containing almost any information one could need regarding American plants.",
-    "url": "https://plants.usda.gov/",
-    "guide": "pl",
-    "category": "data"
-  },
-  {
     "name": "The Stanley Bench Plane Page",
-    "description": "An exhaustive type study of vintage Stanley hand planes, along with a handy dating flowchart.",
+    "description": "A plethora of practical information on restoring and using vintage Stanley hand planes, along with a handy dating flowchart.",
     "url": "https://www.hyperkitten.com/tools/stanley_bench_plane/",
-    "guide": "ww",
-    "category": "tools"
-  },
-  {
-    "name": "AWS Icons",
-    "description": "Free SVG icons for AWS services.",
-    "url": "https://aws-icons.com/",
-    "guide": "dev",
-    "category": "assets"
-  },
-  {
-    "name": "Trefle",
-    "description": "A free and open-source botanical data source and API.",
-    "url": "https://trefle.io",
-    "guide": "pl",
-    "category": "data"
+    "guide": "ht",
+    "category": "information"
   },
   {
     "name": "Sharpening Handbook",
     "description": "Thorough instructions and diagrams for sharpening tool blades.",
     "url": "https://sharpeninghandbook.info/",
-    "guide": "ww",
-    "category": "tools"
+    "guide": "rs",
+    "category": "techniques"
   },
   {
     "name": "Chime Design and Build",
     "description": "Everything you need to know about making a set of wind chimes.",
     "url": "https://leehite.org/Chimes.htm",
-    "guide": "ww",
-    "category": "information"
+    "guide": "pl",
+    "category": "miscellaneous"
   },
   {
     "name": "70birds",
     "description": "Free plans for birdhouses; specific to North American species.",
     "url": "https://70birds.com/",
-    "guide": "ww",
-    "category": "plans"
+    "guide": "pl",
+    "category": "birdhouses"
   },
   {
     "name": "Woodgears.ca",
     "description": "Engineering-focused guides and techniques; also offers plans for jigs, homemade tools, and more.",
     "url": "https://woodgears.ca/index.html",
-    "guide": "ww",
-    "category": "information"
+    "guide": "pl",
+    "category": "jigs"
   },
   {
     "name": "WoodArchivist",
     "description": "Free plans, scanned from woodworking magazines.",
     "url": "https://woodarchivist.com/",
-    "guide": "ww",
-    "category": "plans"
-  },
-  {
-    "name": "Chesstree",
-    "description": "A clever visualization of chess positions; useful for learning opening variations and common traps.",
-    "url": "https://www.chesstree.net/",
-    "guide": "ch",
-    "category": "analysis"
-  },
-  {
-    "name": "Tim Krabbé's Chess Curiosities",
-    "description": "Stories, studies, and analyses of interesting games, positions, players, and concepts.",
-    "url": "https://timkr.home.xs4all.nl/chess/chess.html",
-    "guide": "ch",
-    "category": "analysis"
+    "guide": "pl",
+    "category": "furniture"
   },
   {
     "name": "Paul Sellers' Workbench Info Page",
     "description": "A master craftsman's guide to creating a workbench. Offers free plans and build guides, as well as well-established concepts and rules of thumb to have in mind when designing and building your own workbench.",
     "url": "https://paulsellers.com/paul-sellers-workbench-plans/",
-    "guide": "ww",
-    "category": "plans"
+    "guide": "ws",
+    "category": "workbenches"
+  },
+  {
+    "name": "Patrick's Blood & Gore",
+    "description": "An extremely-detailed study of most every plane Stanley ever made.",
+    "url": "https://www.supertool.com/StanleyBG/stan0a.html",
+    "guide": "ht",
+    "category": "information"
+  },
+  {
+    "name": "Lost Art Press",
+    "description": "My personal favorite resource for woodworking knowledge. Excellent books, and a wonderful blog.",
+    "url": "https://lostartpress.com/",
+    "guide": "rs",
+    "category": "blogs"
+  },
+  {
+    "name": "The Barn on White Run",
+    "description": "Don Williams' blog; a wealth of knowledge on woodworking, homesteading, craftsmanship, construction, and the like.",
+    "url": "https://donsbarn.com",
+    "guide": "rs",
+    "category": "blogs"
   }
 ]

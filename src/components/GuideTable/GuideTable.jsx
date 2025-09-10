@@ -13,13 +13,16 @@ const alphabetize = (arr) =>
       (resourceA.name > resourceB.name ? 1 : 0))
   );
 
-const GuideListing = ({ name, abbr }) => {
+const GuideListing = ({ name, abbr, desc }) => {
   const resourceCount = resources.filter(resource => resource.guide === abbr).length;
 
   return (
     <li className="table-row">
       <Link to={`/g/${abbr}`}>
-        <h3>{name}</h3>
+        <div>
+          <h3>{name}</h3>
+          <p>{desc}</p>
+        </div>
         <small>{resourceCount} {resourceCount === 1 ? "resource" : "resources"}</small>
       </Link>
     </li>
@@ -31,7 +34,7 @@ const GuideTable = () => {
 
   return (
     <ul id="guide-table">
-      {alphabetizedGuides.map(({ name, abbr }, i) => (<GuideListing name={name} abbr={abbr} key={i} />))}
+      {alphabetizedGuides.map(({ name, abbr, desc }, i) => (<GuideListing name={name} abbr={abbr} desc={desc} key={i} />))}
     </ul>
   );
 }

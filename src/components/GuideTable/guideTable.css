@@ -17,6 +17,11 @@
   border-bottom: 1px solid ivory;
 }
 
+#guide-table .table-row div > * {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
 #guide-table .table-row:last-child > * {
   border-bottom: none;
 }
@@ -25,6 +30,6 @@
   background-color: rgba(0, 0, 0, .1);
 }
 
-#guide-table .table-row:hover > * {
+#guide-table .table-row:hover h3 {
   text-decoration: underline;
 }

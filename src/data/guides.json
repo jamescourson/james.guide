@@ -1,22 +1,22 @@
 [
   {
-    "name": "Cubing",
-    "abbr": "cu"
+    "name": "Hand Tools",
+    "abbr": "ht",
+    "desc": "Restoration and use."
   },
   {
-    "name": "Chess",
-    "abbr": "ch"
+    "name": "Workshop",
+    "abbr": "ws",
+    "desc": "Workbenches, jigs, etc."
   },
   {
-    "name": "Development",
-    "abbr": "dev"
+    "name": "Resources",
+    "abbr": "rs",
+    "desc": "Blogs, books, and techniques."
   },
   {
-    "name": "Plants",
-    "abbr": "pl"
-  },
-  {
-    "name": "Woodworking",
-    "abbr": "ww"
+    "name": "Plans",
+    "abbr": "pl",
+    "desc": "Construction, furniture, etc."
   }
 ]
