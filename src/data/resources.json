@@ -49,13 +49,6 @@
     "category": "jigs"
   },
   {
-    "name": "WoodArchivist",
-    "description": "Free plans, scanned from woodworking magazines.",
-    "url": "https://woodarchivist.com/",
-    "guide": "pl",
-    "category": "general"
-  },
-  {
     "name": "Patrick's Blood & Gore",
     "description": "The holy grail of knowledge on Stanley planes. Parts lists, rare models, frequently-missing pieces, and much more.",
     "url": "https://www.supertool.com/StanleyBG/stan0a.html",
@@ -117,5 +110,19 @@
     "url": "https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw",
     "guide": "cr",
     "category": "YouTube"
+  },
+  {
+    "name": "The Woodworker's Archive",
+    "description": "A large database of furniture, fixture, and construction plans. A great source for design inspiration.",
+    "url": "https://woodworkersarchive.com/",
+    "guide": "pl",
+    "category": "archives"
+  },
+  {
+    "name": "\"Woodworking Projects\" on The Internet Archive",
+    "description": "A collection of woodworking books, mostly about home furniture.",
+    "url": "https://woodworkersarchive.com/",
+    "guide": "pl",
+    "category": "archives"
   }
 ]
