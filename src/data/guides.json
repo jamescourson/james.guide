@@ -1,22 +1,17 @@
 [
   {
-    "name": "Hand Tools",
-    "abbr": "ht",
-    "desc": "Restoration and use."
-  },
-  {
-    "name": "Workshop",
-    "abbr": "ws",
-    "desc": "Workbenches, jigs, etc."
-  },
-  {
-    "name": "Resources",
-    "abbr": "rs",
-    "desc": "Blogs, books, and techniques."
+    "name": "Tools",
+    "abbr": "to",
+    "desc": "Purchase, restoration, care, and use of hand tools."
   },
   {
     "name": "Plans",
     "abbr": "pl",
-    "desc": "Construction, furniture, etc."
+    "desc": "Free and paid plans for furniture, jigs, and other projects."
+  },
+  {
+    "name": "Creators",
+    "abbr": "cr",
+    "desc": "YouTubers, blogs, and people that inspire me."
   }
 ]

@@ -7,32 +7,32 @@
     "category": "jigs"
   },
   {
-    "name": "The Wood Database",
-    "description": "Information and statistics for hundreds of species of wood.",
-    "url": "https://www.wood-database.com/",
-    "guide": "rs",
-    "category": "information"
+    "name": "Lost Art Press",
+    "description": "My personal favorite resource for anything related to wood. Excellent books and videos, as well as a great blog.",
+    "url": "https://lostartpress.com/",
+    "guide": "cr",
+    "category": "blogs"
   },
   {
     "name": "The Stanley Bench Plane Page",
     "description": "A plethora of practical information on restoring and using vintage Stanley hand planes, along with a handy dating flowchart.",
     "url": "https://www.hyperkitten.com/tools/stanley_bench_plane/",
-    "guide": "ht",
-    "category": "information"
+    "guide": "to",
+    "category": "Hand Tools"
   },
   {
     "name": "Sharpening Handbook",
-    "description": "Thorough instructions and diagrams for sharpening tool blades.",
+    "description": "Instructions and diagrams for sharpening any and all types of blades.",
     "url": "https://sharpeninghandbook.info/",
-    "guide": "rs",
-    "category": "techniques"
+    "guide": "to",
+    "category": "sharpening"
   },
   {
     "name": "Chime Design and Build",
     "description": "Everything you need to know about making a set of wind chimes.",
     "url": "https://leehite.org/Chimes.htm",
     "guide": "pl",
-    "category": "miscellaneous"
+    "category": "information"
   },
   {
     "name": "70birds",
@@ -56,80 +56,66 @@
     "category": "furniture"
   },
   {
-    "name": "Paul Sellers' Workbench Info Page",
-    "description": "A master craftsman's guide to creating a workbench. Offers free plans and build guides, as well as well-established concepts and rules of thumb to have in mind when designing and building your own workbench.",
-    "url": "https://paulsellers.com/paul-sellers-workbench-plans/",
-    "guide": "ws",
-    "category": "workbenches"
-  },
-  {
     "name": "Patrick's Blood & Gore",
-    "description": "An extremely-detailed study of most every plane Stanley ever made.",
+    "description": "An extremely detailed study of most every plane Stanley ever made.",
     "url": "https://www.supertool.com/StanleyBG/stan0a.html",
-    "guide": "ht",
-    "category": "information"
-  },
-  {
-    "name": "Lost Art Press",
-    "description": "My personal favorite resource for anything related to wood. Excellent books and videos, as well as a great blog.",
-    "url": "https://lostartpress.com/",
-    "guide": "rs",
-    "category": "blogs"
+    "guide": "to",
+    "category": "Hand Tools"
   },
   {
     "name": "The Barn on White Run",
-    "description": "Renowned craftsman Don Williams' blog; a wealth of knowledge on woodworking, homesteading, craftsmanship, construction, and the like.",
+    "description": "Renowned craftsman and woodworker Don Williams' blog; a wealth of knowledge on woodworking, homesteading, craftsmanship, construction, and the like.",
     "url": "https://donsbarn.com",
-    "guide": "rs",
+    "guide": "cr",
     "category": "blogs"
   },
   {
     "name": "Pask Makes",
-    "description": "Craftsman Neil Pask's YouTube channel. Homemade tools, furniture, and art. Possibly the most patient man on Earth.",
+    "description": "Craftsman Neil Pask's channel. Homemade tools, furniture, and art. Possibly the most patient man on Earth.",
     "url": "https://www.youtube.com/@PaskMakes",
-    "guide": "rs",
-    "category": "creators"
+    "guide": "cr",
+    "category": "YouTube"
   },
   {
     "name": "Workshop Companion",
-    "description": "Author and craftsman Nick Engler's YouTube channel. Plans, techniques, jigs, homemade finishes, and much more.",
+    "description": "Author and woodworker Nick Engler's channel. Plans, techniques, jigs, homemade finishes, and much more.",
     "url": "https://www.youtube.com/@WorkshopCompanion",
-    "guide": "rs",
-    "category": "creators"
+    "guide": "cr",
+    "category": "YouTube"
   },
   {
     "name": "The Instrument Makers",
-    "description": "Excellent video-format interviews, shop tours, and information about the making of fine instruments.",
+    "description": "Excellent interviews, shop tours, and information about the making of fine instruments.",
     "url": "https://www.youtube.com/@TheInstrumentMakers",
-    "guide": "rs",
-    "category": "creators"
+    "guide": "cr",
+    "category": "YouTube"
   },
   {
     "name": "Hyperkitten Tool Company",
     "description": "Vintage and modern woodworking/machining tools at excellent prices.",
     "url": "https://www.hyperkitten.com/store/index.php",
-    "guide": "rs",
+    "guide": "to",
     "category": "stores"
   },
   {
     "name": "Just Plane Fun",
-    "description": "Spare parts, mostly for Stanley hand planes.",
+    "description": "Spare parts, mostly for vintage hand planes.",
     "url": "https://just-plane-fun.myshopify.com/",
-    "guide": "rs",
+    "guide": "to",
     "category": "stores"
   },
   {
     "name": "Tools for Working Wood",
-    "description": "The type of store where you can't find a bad tool or product. A good place to buy Osmo!",
+    "description": "The type of place where you can't find a bad tool or product. A good place to buy Osmo!",
     "url": "https://toolsforworkingwood.com/",
-    "guide": "rs",
+    "guide": "to",
     "category": "stores"
   },
   {
     "name": "Adrian Preda",
     "description": "An excellent craftsman, especially when it comes to making small workbenches and even smaller boxes.",
     "url": "https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw",
-    "guide": "rs",
-    "category": "creators"
+    "guide": "cr",
+    "category": "YouTube"
   }
 ]
