@@ -4,7 +4,7 @@
     "description": "Plans for jigs and homemade tools, as well as a ton of useful guides and tips.",
     "url": "https://ibuildit.ca/",
     "guide": "pl",
-    "category": "general"
+    "category": "workshop"
   },
   {
     "name": "Lost Art Press",
@@ -32,11 +32,11 @@
     "description": "Everything you need to know about making a set of wind chimes.",
     "url": "https://leehite.org/Chimes.htm",
     "guide": "pl",
-    "category": "information"
+    "category": "design"
   },
   {
     "name": "70birds",
-    "description": "Free plans for birdhouses; specific to North American species.",
+    "description": "Free plans for several types of birdhouses and platforms.",
     "url": "https://70birds.com/",
     "guide": "pl",
     "category": "birdhouses"
@@ -46,7 +46,7 @@
     "description": "Engineering-focused guides and techniques; also offers plans for jigs, homemade tools, and more.",
     "url": "https://woodgears.ca/index.html",
     "guide": "pl",
-    "category": "jigs"
+    "category": "workshop"
   },
   {
     "name": "Patrick's Blood & Gore",
@@ -124,5 +124,12 @@
     "url": "https://woodworkersarchive.com/",
     "guide": "pl",
     "category": "archives"
+  },
+  {
+    "name": "Birdhouse Sizing Chart",
+    "description": "Dimensions for many common North American species. (Click to download, PDF)",
+    "url": "https://www.ogdennaturecenter.org/images/BIRDHOUSE_SIZE_REQUIREMENTS.pdf",
+    "guide": "pl",
+    "category": "birdhouses"
   }
 ]
