@@ -18,7 +18,7 @@ const Resource = ({ data }) => {
   return (
     <li className="list-row">
       <Link to={url} target="_blank">
-        <h3>{name}:</h3>
+        <h3>{name}</h3>
         <p>{description}</p>
       </Link>
     </li>
