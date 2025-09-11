@@ -2,4 +2,8 @@
   article {
     max-width: 55vw;
   }
+
+  article ul {
+    list-style-type: square;
+  }
 }

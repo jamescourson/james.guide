@@ -22,6 +22,13 @@ const Home = () => (
         <br />
         Check out the <Link to="https://github.com/jamescourson/james.guide" target="_blank">source code</Link>!
       </p>
+
+      <h2>Coming Soon:</h2>
+      <ul>
+        <li>File downloads</li>
+        <li>Directory UI overhaul</li>
+        <li>The Gallery</li>
+      </ul>
     </article>
   </>
 );
