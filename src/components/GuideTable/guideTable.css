@@ -8,16 +8,23 @@
 
 #guide-table .table-row > * {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: baseline;
-  gap: 1em;
   text-decoration: none;
   padding: 1em;
   border-bottom: 1px solid ivory;
 }
 
-#guide-table .table-row div > * {
+#guide-table .table-row div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1em;
+  align-items: center;
+}
+
+#guide-table .table-row h2, #guide-table .table-row p {
   margin-top: .5em;
   margin-bottom: .5em;
 }
@@ -30,6 +37,6 @@
   background-color: rgba(0, 0, 0, .1);
 }
 
-#guide-table .table-row:hover h3 {
+#guide-table .table-row:hover h2 {
   text-decoration: underline;
 }

@@ -4,14 +4,14 @@
     "description": "Plans for jigs and homemade tools, as well as a ton of useful guides and tips.",
     "url": "https://ibuildit.ca/",
     "guide": "pl",
-    "category": "jigs"
+    "category": "general"
   },
   {
     "name": "Lost Art Press",
     "description": "My personal favorite resource for anything related to wood. Excellent books and videos, as well as a great blog.",
     "url": "https://lostartpress.com/",
     "guide": "cr",
-    "category": "blogs"
+    "category": "Blogs"
   },
   {
     "name": "The Stanley Bench Plane Page",
@@ -53,7 +53,7 @@
     "description": "Free plans, scanned from woodworking magazines.",
     "url": "https://woodarchivist.com/",
     "guide": "pl",
-    "category": "furniture"
+    "category": "general"
   },
   {
     "name": "Patrick's Blood & Gore",
@@ -67,7 +67,7 @@
     "description": "Renowned craftsman and woodworker Don Williams' blog; a wealth of knowledge on woodworking, homesteading, craftsmanship, construction, and the like.",
     "url": "https://donsbarn.com",
     "guide": "cr",
-    "category": "blogs"
+    "category": "Blogs"
   },
   {
     "name": "Pask Makes",
