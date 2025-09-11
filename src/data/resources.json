@@ -71,14 +71,14 @@
   },
   {
     "name": "Lost Art Press",
-    "description": "My personal favorite resource for anything related to wood. Excellent books, and a wonderful blog.",
+    "description": "My personal favorite resource for anything related to wood. Excellent books and videos, as well as a great blog.",
     "url": "https://lostartpress.com/",
     "guide": "rs",
     "category": "blogs"
   },
   {
     "name": "The Barn on White Run",
-    "description": "Don Williams' blog; a wealth of knowledge on woodworking, homesteading, craftsmanship, construction, and the like.",
+    "description": "Renowned craftsman Don Williams' blog; a wealth of knowledge on woodworking, homesteading, craftsmanship, construction, and the like.",
     "url": "https://donsbarn.com",
     "guide": "rs",
     "category": "blogs"
@@ -106,9 +106,30 @@
   },
   {
     "name": "Hyperkitten Tool Company",
-    "description": "Vintage and modern tools at excellent prices. New tools posted multiple times per week.",
+    "description": "Vintage and modern woodworking/machining tools at excellent prices.",
     "url": "https://www.hyperkitten.com/store/index.php",
     "guide": "rs",
     "category": "stores"
+  },
+  {
+    "name": "Just Plane Fun",
+    "description": "Spare parts, mostly for Stanley hand planes.",
+    "url": "https://just-plane-fun.myshopify.com/",
+    "guide": "rs",
+    "category": "stores"
+  },
+  {
+    "name": "Tools for Working Wood",
+    "description": "The type of store where you can't find a bad tool or product. A good place to buy Osmo!",
+    "url": "https://toolsforworkingwood.com/",
+    "guide": "rs",
+    "category": "stores"
+  },
+  {
+    "name": "Adrian Preda",
+    "description": "An excellent craftsman, especially when it comes to making small workbenches and even smaller boxes.",
+    "url": "https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw",
+    "guide": "rs",
+    "category": "creators"
   }
 ]
