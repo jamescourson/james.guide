@@ -1,35 +1,36 @@
 [
   {
     "name": "I Build It",
-    "description": "Plans for jigs and homemade tools, as well as a ton of useful guides and tips.",
+    "description": "Plans for clever jigs and homemade tools, mostly for your workshop.",
     "url": "https://ibuildit.ca/",
     "guide": "pl",
     "category": "workshop"
   },
   {
     "name": "Lost Art Press",
-    "description": "My personal favorite resource for anything related to wood. Excellent books and videos, as well as a great blog.",
+    "description": "An excellent blog, as well as books and videos, all focusing on traditional woodworking techniques.",
     "url": "https://lostartpress.com/",
     "guide": "cr",
-    "category": "Blogs"
+    "category": "Blogs",
+    "tags": ["furniture", "tradition", "finishing", "blog"]
   },
   {
     "name": "The Stanley Bench Plane Page",
-    "description": "A useful type study of Stanley planes, as well as a handy dating flowchart.",
+    "description": "A useful type study of Stanley planes, as well as a useful dating flowchart.",
     "url": "https://www.hyperkitten.com/tools/stanley_bench_plane/",
     "guide": "to",
     "category": "Hand Tools"
   },
   {
     "name": "Sharpening Handbook",
-    "description": "Instructions and diagrams for sharpening any and all types of blades.",
+    "description": "Instructions and diagrams for sharpening pretty much anything.",
     "url": "https://sharpeninghandbook.info/",
     "guide": "to",
     "category": "sharpening"
   },
   {
     "name": "Chime Design and Build",
-    "description": "Everything you need to know about making a set of wind chimes.",
+    "description": "Everything you need to know to make a set of wind chimes, including materials, sizing, and tuning; also provides a collection of common tunes.",
     "url": "https://leehite.org/Chimes.htm",
     "guide": "pl",
     "category": "design"
@@ -43,93 +44,91 @@
   },
   {
     "name": "Woodgears.ca",
-    "description": "Engineering-focused guides and techniques; also offers plans for jigs, homemade tools, and more.",
+    "description": "Very clever engineering-focused projects.",
     "url": "https://woodgears.ca/index.html",
     "guide": "pl",
     "category": "workshop"
   },
   {
     "name": "Patrick's Blood & Gore",
-    "description": "The holy grail of knowledge on Stanley planes. Parts lists, rare models, frequently-missing pieces, and much more.",
+    "description": "A beacon of knowledge for Stanley planes. Parts lists, rare models, frequently-missing pieces, and much more.",
     "url": "https://www.supertool.com/StanleyBG/stan0a.html",
     "guide": "to",
     "category": "Hand Tools"
   },
   {
     "name": "The Barn on White Run",
-    "description": "Renowned craftsman and woodworker Don Williams' blog; a wealth of knowledge on woodworking, homesteading, craftsmanship, construction, and the like.",
+    "description": "Craftsman and woodworker Don Williams' blog. A great variety of projects and studies.",
     "url": "https://donsbarn.com",
     "guide": "cr",
-    "category": "Blogs"
+    "category": "Blogs",
+    "tags": ["homestead", "cabinetry", "blog", "tradition"]
   },
   {
     "name": "Pask Makes",
-    "description": "Craftsman Neil Pask's channel. Homemade tools, furniture, and art. Possibly the most patient man on Earth.",
+    "description": "Neil Pask's channel. Homemade tools, furniture, and art. Possibly the most patient man on Earth.",
     "url": "https://www.youtube.com/@PaskMakes",
     "guide": "cr",
-    "category": "YouTube"
-  },
-  {
-    "name": "Workshop Companion",
-    "description": "Author and woodworker Nick Engler's channel. Plans, techniques, jigs, homemade finishes, and much more.",
-    "url": "https://www.youtube.com/@WorkshopCompanion",
-    "guide": "cr",
-    "category": "YouTube"
+    "category": "YouTube",
+    "tags": ["furniture", "workshop", "reclaim"]
   },
   {
     "name": "The Instrument Makers",
     "description": "Excellent interviews, shop tours, and information about the making of fine instruments.",
     "url": "https://www.youtube.com/@TheInstrumentMakers",
     "guide": "cr",
-    "category": "YouTube"
+    "category": "YouTube",
+    "tags": ["interview", "instrument", "shop tour"]
   },
   {
     "name": "Hyperkitten Tool Company",
-    "description": "Vintage and modern woodworking/machining tools at excellent prices.",
+    "description": "Vintage and modern wood/metalworking tools at excellent prices.",
     "url": "https://www.hyperkitten.com/store/index.php",
     "guide": "to",
     "category": "stores"
   },
   {
     "name": "Just Plane Fun",
-    "description": "Spare parts, mostly for vintage hand planes.",
+    "description": "Spare parts, mostly for vintage Stanley hand planes.",
     "url": "https://just-plane-fun.myshopify.com/",
     "guide": "to",
     "category": "stores"
   },
   {
     "name": "Tools for Working Wood",
-    "description": "The type of store where you can't find a bad tool or product. A good place to buy Osmo!",
+    "description": "One of those shops where you can't find a bad tool or product.",
     "url": "https://toolsforworkingwood.com/",
     "guide": "to",
     "category": "stores"
   },
   {
     "name": "Adrian Preda",
-    "description": "An excellent craftsman, especially when it comes to making small workbenches and even smaller boxes.",
+    "description": "Furniture, workshop projects, and very nice keepsake boxes.",
     "url": "https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw",
     "guide": "cr",
-    "category": "YouTube"
+    "category": "YouTube",
+    "tags": ["furniture", "workshop", "boxes"]
   },
   {
     "name": "The Woodworker's Archive",
-    "description": "A large database of furniture, fixture, and construction plans. A great source for design inspiration.",
-    "url": "https://woodworkersarchive.com/",
-    "guide": "pl",
-    "category": "archives"
-  },
-  {
-    "name": "\"Woodworking Projects\" on The Internet Archive",
-    "description": "A collection of woodworking books, mostly about home furniture.",
+    "description": "A large database of various types of plans. A great source for design inspiration.",
     "url": "https://woodworkersarchive.com/",
     "guide": "pl",
     "category": "archives"
   },
   {
     "name": "Birdhouse Sizing Chart",
-    "description": "Dimensions for many common North American species. (Click to download, PDF)",
+    "description": "Dimensions for many common North American species.",
     "url": "https://www.ogdennaturecenter.org/images/BIRDHOUSE_SIZE_REQUIREMENTS.pdf",
     "guide": "pl",
     "category": "birdhouses"
+  },
+  {
+    "name": "Epic UpCycling",
+    "description": "Fine furniture and cabinetry made from reclaimed wood and pallets.",
+    "url": "https://www.youtube.com/@EpicUpCycling",
+    "guide": "cr",
+    "category": "YouTube",
+    "tags": ["reclaim", "furniture", "workshop"]
   }
 ]

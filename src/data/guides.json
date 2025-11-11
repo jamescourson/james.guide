@@ -2,16 +2,17 @@
   {
     "name": "Tools",
     "abbr": "to",
-    "desc": "Purchase, restoration, use, and care of hand tools."
+    "desc": "On the purchase, restoration, and use of vintage hand tools."
   },
   {
     "name": "Plans",
     "abbr": "pl",
-    "desc": "Free and paid plans for furniture, jigs, etc."
+    "desc": "Websites with free and paid project plans.",
+    "actions": ["Free", "Paid"]
   },
   {
     "name": "Creators",
     "abbr": "cr",
-    "desc": "People that inspire me to go and make something."
+    "desc": "A collection of inspiring internet makers."
   }
 ]
