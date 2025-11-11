@@ -7,6 +7,25 @@
   border-bottom: 2px solid ivory;
 }
 
+#guide-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#guide-filter-select {
+  display: inline-block;
+  margin-top: .5em;
+  color: ivory;
+  background-color: rgba(11, 102, 35, .75);
+  border: 1px solid ivory;
+  border-radius: .35em;
+}
+
+#guide-filter-select:open option {
+  background-color: #0B6623;
+}
+
 #return {
   display: inline-block;
   margin-top: .5em;

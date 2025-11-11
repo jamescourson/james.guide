@@ -40,6 +40,18 @@
   margin: 0;
 }
 
+#resource-list .list-row div {
+  display: flex;
+  flex-flow: row wrap;
+  gap: .5em;
+}
+
+#resource-list .list-row div small {
+  padding: .25em .5em;
+  border-radius: .35em;
+  background-color: rgba(11, 102, 35, .75);
+}
+
 #resource-list .list-row:hover {
   background-color: rgba(0, 0, 0, .1);
 }
