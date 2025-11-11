@@ -1,5 +1,5 @@
 import './directory.css';
-import GuideTable from '../../components/GuideTable/guideTable';
+import GuideTable from '../../components/GuideTable/GuideTable';
 
 import guides from '../../data/guides.json';
 import resources from '../../data/resources.json';
